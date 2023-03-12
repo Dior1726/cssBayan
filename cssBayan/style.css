@@ -84,7 +84,7 @@ body {
 
 
 .accordion-item__body img {
-  max-width: 300px;
+  max-width: 240px;
   height: auto;
 }
 
@@ -118,7 +118,7 @@ body {
 
 @media screen and (max-width: 820px) {
   .accordion-item__body img {
-    max-width: 240px;
+    max-width: 200px;
   }
 }
 
