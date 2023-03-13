@@ -112,11 +112,11 @@ body {
   transform: translateY(0) scale(1);
 }
 
-.accordion-item__radio:checked~.accordion-item__title {
+.accordion-item__radio:checked~label h4 {
   color: black;
 }
 
-.accordion-item__radio:checked~.accordion-item__btn {
+.accordion-item__radio:checked~label .accordion-item__btn {
   transform: rotate(45deg);
   transition: all .3s ease;
 }
