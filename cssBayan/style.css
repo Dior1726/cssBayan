@@ -49,6 +49,7 @@ body {
   flex-direction: column;
   border-bottom: 2px solid #e3e7e7;
   transition: all .3s ease;
+  cursor: pointer;
 }
 
 .accordion-item__header {
