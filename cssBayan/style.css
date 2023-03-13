@@ -120,10 +120,18 @@ body {
   .accordion-item__body img {
     max-width: 200px;
   }
+
+  .accordion-item__title {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .accordion-item__body img {
     max-width: 160px;
+  }
+
+  .accordion-item__title {
+    font-size: 16px;
   }
 }
