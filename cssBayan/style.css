@@ -84,6 +84,9 @@ body {
   transition: all .3s ease;
 }
 
+.accordion-item__radio {
+  display: none;
+}
 
 .accordion-item__body img {
   max-width: 240px;
@@ -102,18 +105,18 @@ body {
   transition: all .3s ease;
 }
 
-.accordion-item.active .accordion-item__body {
+.accordion-item__radio:checked~.accordion-item__body {
   height: auto;
   visibility: visible;
   transition: all .3s ease;
   transform: translateY(0) scale(1);
 }
 
-.accordion-item.active .accordion-item__title {
+.accordion-item__radio:checked~.accordion-item__title {
   color: black;
 }
 
-.accordion-item.active .accordion-item__btn {
+.accordion-item__radio:checked~.accordion-item__btn {
   transform: rotate(45deg);
   transition: all .3s ease;
 }
