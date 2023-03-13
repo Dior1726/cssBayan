@@ -6,7 +6,8 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
+  min-height: 100vh;
   background: #f6f6ec;
   padding: 50px 0;
 }
