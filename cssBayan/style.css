@@ -33,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2vw;
+  cursor: pointer;
 }
 
 .accordion:hover .accordion-item__title {
